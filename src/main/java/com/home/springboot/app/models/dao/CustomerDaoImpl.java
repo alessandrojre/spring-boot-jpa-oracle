@@ -34,27 +34,4 @@ public class CustomerDaoImpl implements ICustomerDao {
 		return customers;
 	}
 
-	@Override
-	public List<Customer> getProcedureCursor() {
-
-		return new ArrayList<Customer>();
-	}
-
-
-	@Override
-	public List<Customer> getProcedureCursorById(Long ip_cursor_id) {
-//
-//		List<Customer> retorno = null;
-//		try {
-//			StoredProcedureQuery query = em.createNamedStoredProcedureQuery("getProcedureCursorById");
-//			query.setParameter("p_cursor_id", id);
-//			query.execute();
-//			retorno = (List<Customer>) query.getOutputParameterValue("p_recordset");
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
-
-		return new ArrayList<Customer>();
-	}
-
 }

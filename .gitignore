@@ -16,7 +16,10 @@ buildNumber.properties
 .mvn/timing.properties
 <<<<<<< HEAD
 .mvn/wrapper/maven-wrapper.jar
-
+.springBeans
+.project
+.classpath
+.settings/
 # End of https://www.gitignore.io/api/maven
 =======
 
