@@ -1,4 +1,4 @@
-package com.avatar.springboot.app.models.entity;
+package com.home.springboot.app.models.entity;
 
 import java.util.Date;
 

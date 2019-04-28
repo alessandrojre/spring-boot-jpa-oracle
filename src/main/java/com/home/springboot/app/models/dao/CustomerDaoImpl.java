@@ -1,4 +1,4 @@
-package com.avatar.springboot.app.models.dao;
+package com.home.springboot.app.models.dao;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -10,7 +10,7 @@ import javax.persistence.StoredProcedureQuery;
 
 import org.springframework.stereotype.Repository;
 
-import com.avatar.springboot.app.models.entity.Customer;
+import com.home.springboot.app.models.entity.Customer;
 
 @Repository
 public class CustomerDaoImpl implements ICustomerDao {

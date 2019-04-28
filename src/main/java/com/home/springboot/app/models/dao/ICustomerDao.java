@@ -1,8 +1,8 @@
-package com.avatar.springboot.app.models.dao;
+package com.home.springboot.app.models.dao;
 
 import java.util.List;
 
-import com.avatar.springboot.app.models.entity.Customer;
+import com.home.springboot.app.models.entity.Customer;
 
 public interface ICustomerDao {
 

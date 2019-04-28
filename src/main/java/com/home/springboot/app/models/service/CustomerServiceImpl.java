@@ -1,4 +1,4 @@
-package com.avatar.springboot.app.models.service;
+package com.home.springboot.app.models.service;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.avatar.springboot.app.models.dao.CustomerRepository;
-import com.avatar.springboot.app.models.dao.ICustomerDao;
-import com.avatar.springboot.app.models.entity.Customer;
+import com.home.springboot.app.models.dao.CustomerRepository;
+import com.home.springboot.app.models.dao.ICustomerDao;
+import com.home.springboot.app.models.entity.Customer;
 
 @Service
 public class CustomerServiceImpl implements ICustomerService {

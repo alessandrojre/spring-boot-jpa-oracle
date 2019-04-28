@@ -1,9 +1,9 @@
-package com.avatar.springboot.app.models.service;
+package com.home.springboot.app.models.service;
 
 import java.sql.SQLException;
 import java.util.List;
 
-import com.avatar.springboot.app.models.entity.Customer;
+import com.home.springboot.app.models.entity.Customer;
 
 public interface ICustomerService {
 

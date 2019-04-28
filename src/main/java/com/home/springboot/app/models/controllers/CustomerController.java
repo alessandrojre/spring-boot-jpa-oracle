@@ -1,4 +1,4 @@
-package com.avatar.springboot.app.models.controllers;
+package com.home.springboot.app.models.controllers;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.avatar.springboot.app.models.entity.Customer;
-import com.avatar.springboot.app.models.service.ICustomerService;
+import com.home.springboot.app.models.entity.Customer;
+import com.home.springboot.app.models.service.ICustomerService;
 
 @Controller
 @RequestMapping("/v1")

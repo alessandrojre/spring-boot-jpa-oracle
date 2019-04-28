@@ -1,4 +1,4 @@
-package com.avatar.springboot.app.models.controllers;
+package com.home.springboot.app.models.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
