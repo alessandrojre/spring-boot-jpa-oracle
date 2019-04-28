@@ -7,9 +7,6 @@ import com.avatar.springboot.app.models.entity.Customer;
 public interface ICustomerDao {
 
 	public List<Customer> getCustomerById(Long id);
-	public List<Customer> getProcedureCursor();
-	
-	
-	public List<Customer> getProcedureCursorById(Long p_cursor_id);
+
 
 }
