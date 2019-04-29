@@ -8,5 +8,4 @@ public interface ICustomerDao {
 
 	public List<Customer> getCustomerById(Long id);
 
-
 }
