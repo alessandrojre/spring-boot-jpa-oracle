@@ -10,6 +10,6 @@ public interface ICustomerService {
 	public List<Customer> getCustomerById(Long id);
 
 	public List<Customer> getProcedureCursor() throws SQLException;
-	
+
 	public List<Customer> getProcedureCursorById(Long p_cursor_id) throws SQLException;
 }
